@@ -1,0 +1,20 @@
+{
+  "name": "footapp",
+  "version": "1.0.0",
+  "description": "application de football",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmenallahMeftehh/FootApp.git"
+  },
+  "author": "Amen Allah Mefteh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmenallahMeftehh/FootApp/issues"
+  },
+  "homepage": "https://github.com/AmenallahMeftehh/FootApp#readme"
+}
