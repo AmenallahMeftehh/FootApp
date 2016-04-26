@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/AmenallahMeftehh/FootApp/issues"
   },
-  "homepage": "https://github.com/AmenallahMeftehh/FootApp#readme"
+  "homepage": "https://github.com/AmenallahMeftehh/FootApp#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.13",
+    "morgan": "^1.7.0"
+  }
 }
