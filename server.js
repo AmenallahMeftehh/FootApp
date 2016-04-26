@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 var morgan = require('morgan');
 //creation de la connexion vers mongo db
 var db = mongoose.connect('mongodb://localhost/bdfoot');
-//import du model Book
+//import du model foot
 var Foot = require('./models/FootModel');
 //express
 var app = express();
@@ -17,9 +17,9 @@ var port = process.env.PORT || 3000;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 //import de router
-bookRouter = require('./routes/footRoutes')(Foot);
+footRouter = require('./routes/footRoutes')(Foot);
 //uilisation de l'api
-app.use('/api/foots', bookRouter);
+app.use('/api/foots', footRouter);
 
 app.use(express.static(__dirname));
 

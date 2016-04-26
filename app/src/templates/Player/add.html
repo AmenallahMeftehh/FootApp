@@ -1,0 +1,40 @@
+<div class="container">
+    <form  class="form-horizontal" role="form">
+      <!-- form name -->
+      <h1>{{viewName}}</h1>
+      <!-- titre -->
+      <div class="form-group">
+        <label for="title" class="col-sm-3 control-label">Football Player name</label>
+          <div class="col-sm-9">
+            <input type="text" id="title" placeholder="Book title" class="form-control" ng-model="foot.nom">
+          </div>
+      </div>
+      <!-- auteur -->
+      <div class="form-group">
+        <label for="author" class="col-sm-3 control-label">Football Player club</label>
+        <div class="col-sm-9">
+          <input type="text" id="author" placeholder="Football name" class="form-control" ng-model="foot.club">
+        </div>
+      </div>
+      <!-- genre -->
+      <div class="form-group">
+        <label for="genre" class="col-sm-3 control-label">Football Player age</label>
+        <div class="col-sm-9">
+          <input type="text" id="genre" placeholder="Football age" class="form-control" ng-model="foot.age">
+        </div>
+      </div>
+      <!-- cover -->
+      <div class="form-group">
+        <label for="cover" class="col-sm-3 control-label">Football Player Photo</label>
+        <div class="col-sm-9">
+          <input type="text" id="cover" placeholder="Cover adress" class="form-control" ng-model="foot.image">
+        </div>
+      </div>
+      <!-- bouton d'enregistrement -->
+      <div class="form-group">
+        <div class="col-sm-9 col-sm-offset-3">
+          <button type="submit" class="btn btn-primary btn-block" ng-click="addFoot()">Add Player</button>
+        </div>
+      </div>
+    </form>
+</div>
